@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Music Player</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- <div class="container"> -->
+
+      <header class="header-vertical">
+        <!-- <div class="header-vertical__logo">
+              <img src="./assets/img/logo.jpg" alt="" />
+            </div> -->
+        <div class="header-vertical__all">
+          <div class="header-vertical-menu">
+            <ul class="header-menu__list">
+              <li class="header-mg header-pd header-menu__item active">
+                <a href="">Libraby</a>
+              </li>
+              <li class="header-mg header-pd header-menu__item">
+                <a href="">Browse</a>
+              </li>
+              <li class="header-mg header-pd header-menu__item">
+                <a href="">Radio</a>
+              </li>
+              <li class="header-mg header-pd header-menu__item">
+                <a href="">Store</a>
+              </li>
+            </ul>
+          </div>
+          <div class="header-vertical__music">
+            <span class="header-mg header-pd header-music__title">MY MUSIC</span>
+            <ul class="header-music__list">
+              <li class="header-mg header-pd header-music__item">
+                <i class="fa-solid fa-compact-disc"></i>
+                <a href="">Songs</a>
+              </li>
+              <li class="header-mg header-pd header-music__item">
+                <i class="fa-solid fa-arrow-rotate-left"></i>
+                <a href="">Recent</a>
+              </li>
+              <li class="header-mg header-pd header-music__item">
+                <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                <a href="">Local</a>
+              </li>
+              <li class="header-mg header-pd header-music__item">
+                <i class="fa-solid fa-radio"></i>
+                <a href="">Albums</a>
+              </li>
+              <li class="header-mg header-pd header-music__item">
+                <i class="fa-solid fa-user"></i>
+                <a href="">Artists</a>
+              </li>
+            </ul>
+          </div>
+          <div class="header-vertical__playlist">
+            <span class="header-mg header-pd header-playlist__title"
+              >PLAYLISTS</span
+            >
+            <ul class="header-playlist__list">
+              <li class="header-mg header-pd header-playlist__item">
+                <i class="fa-solid fa-star"></i>
+                <a href="">Starred</a>
+              </li>
+              <li class="header-mg header-pd header-playlist__item">
+                <i class="fa-solid fa-music"></i>
+                <a href="">Discovery</a>
+              </li>
+              <li class="header-mg header-pd header-playlist__item">
+                <i class="fa-solid fa-music"></i>
+                <a href="">Favorites</a>
+              </li>
+              <li class="header-mg header-pd header-playlist__item">
+                <i class="fa-solid fa-music"></i>
+                <a href="">Top Charts</a>
+              </li>
+              <li class="header-mg header-pd header-playlist__item">
+                <i class="fa-solid fa-music"></i>
+                <a href="">Stations</a>
+              </li>
+              <li class="header-mg header-pd header-playlist__item">
+                <i class="fa-solid fa-music"></i>
+                <a href="">Genres</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="main-header">
+        <div class="user">
+          <div class="user-header">
+            <div class="user-img">
+              <img src="./assets/img/user.jpg" alt="" />
+            </div>
+            <div class="user-name">
+              <span>Phan Ba Huy</span>
+            </div>
+            <div class="user-icon">
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="artist">
+          <div class="artist-kind">
+            <h3>BALLAD</h3>
+          </div>
+          <div class="artist-name">
+            <h2>HA ANH TUAN</h2>
+          </div>
+          <div class="artist-btn">
+            <a href="" class="btn-play">PLAY</a>
+            <a href="" class="btn-follow">FOLLOW</a>
+          </div>
+        </div>
+      </div>
+      <div class="main-body">
+        <div class="songs">
+          <div class="top">
+            <div class="top-title">
+              <span>TOP SONG</span>
+            </div>
+            <div class="song">
+              <div class="song-serial">
+                <span>1</span>
+              </div>
+              <div class="song-add">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+              <div class="song-img">
+                <img src="./assets/img/xuanthi.jpg" alt="" />
+              </div>
+              <div class="song-info">
+                <div class="song-name">
+                  <span>Xuan Thi</span>
+                </div>
+                <div class="song-year">
+                  <span>2022</span>
+                </div>
+              </div>
+              <div class="song-time">
+                <span>00:00</span>
+              </div>
+              <div class="song-option">
+                <i class="fa-solid fa-ellipsis-vertical option-icon"></i>
+              </div>
+            </div>
+            <div class="song active">
+              <div class="song-serial">
+                <span>1</span>
+              </div>
+              <div class="song-add">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+              <div class="song-img">
+                <img src="./assets/img/xuanthi.jpg" alt="" />
+              </div>
+              <div class="song-info">
+                <div class="song-name">
+                  <span>Xuan Thi</span>
+                </div>
+                <div class="song-year">
+                  <span>2022</span>
+                </div>
+              </div>
+              <div class="song-time">
+                <span>00:00</span>
+              </div>
+              <div class="song-option">
+                <i class="fa-solid fa-ellipsis-vertical option-icon"></i>
+              </div>
+            </div>
+            <div class="song">
+              <div class="song-serial">
+                <span>1</span>
+              </div>
+              <div class="song-add">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+              <div class="song-img">
+                <img src="./assets/img/xuanthi.jpg" alt="" />
+              </div>
+              <div class="song-info">
+                <div class="song-name">
+                  <span>Xuan Thi</span>
+                </div>
+                <div class="song-year">
+                  <span>2022</span>
+                </div>
+              </div>
+              <div class="song-time">
+                <span>00:00</span>
+              </div>
+              <div class="song-option">
+                <i class="fa-solid fa-ellipsis-vertical option-icon"></i>
+              </div>
+            </div>
+          </div>
+          <div class="albums">
+            <div class="albums-title">
+              <span>ALBUMS</span>
+            </div>
+            <div class="albums-all">
+              <div class="albums-row">
+                <div class="albums-item">
+                  <div class="albums-img">
+
+                    <img
+                      src="./assets/img/cafesang.jfif"
+                      alt=""
+                     
+                    />
+                  </div>
+                  <h3 class="albums-name">Cafe Sang</h3>
+                  <h4 class="albums-year">2022</h4>
+                </div>
+                <div class="albums-item">
+                  <div class="albums-img">
+
+                    <img
+                      src="./assets/img/cafesang.jfif"
+                      alt=""
+                     
+                    />
+                  </div>
+                  <h3 class="albums-name">See Sing Share</h3>
+                  <h4 class="albums-year">2022</h4>
+                </div>
+                <div class="albums-item">
+                  <div class="albums-img">
+
+                    <img
+                      src="./assets/img/cafesang.jfif"
+                      alt=""
+                     
+                    />
+                  </div>
+                  <h3 class="albums-name">Thang may</h3>
+                  <h4 class="albums-year">2022</h4>
+                </div>
+              </div>
+              <div class="albums-row">
+                <div class="albums-item">
+                  <div class="albums-img">
+
+                    <img
+                      src="./assets/img/cafesang.jfif"
+                      alt=""
+                     
+                    />
+                  </div>
+                  <h3 class="albums-name">Truyen Ngan</h3>
+                  <h4 class="albums-year">2022</span>
+                </div>
+                <div class="albums-item">
+                  <div class="albums-img">
+
+                    <img
+                      src="./assets/img/cafesang.jfif"
+                      alt=""
+                     
+                    />
+                  </div>
+                  <h3 class="albums-name">Veston</span>
+                  <h4 class="albums-year">2022</h4>
+                </div>
+                <div class="albums-item">
+                  <div class="albums-img">
+
+                    <img
+                      src="./assets/img/cafesang.jfif"
+                      alt=""
+                     
+                    />
+                  </div>
+                  <h3 class="albums-name">Xuan Thi</h3>
+                  <h4 class="albums-year">2022</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="control">
+          
+          <div class="all-control">
+
+            <div class="control-info__song">
+              <div class="control-song__img " >
+                <div style="background-image: url('https://i.ytimg.com/vi/KFldBN4QRl4/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAWddWrMV_VcTWuS1zjiNlhHboKvg')" class="song-img">
+
+                </div>
+              </div>
+              <div class="control-song__title">
+                <h3>Thang may em nho anh</h3>
+                <h4>Ha Anh Tuan</h4>
+              </div>
+            </div>
+  
+            <div class="control-btn">
+              <div class="all-btn">
+                <div class="random-btn ">
+                  <i class="fa-solid control-icon fa-shuffle icon-random"></i>
+                </div>
+                <div class="prev-btn">
+                  <i class="fa-solid control-icon fa-backward-step"></i>
+                </div>
+                <div class="play-btn ">
+                  <i class="fa-solid control-icon border-icon fa-play icon-play"></i>
+                  <i class="fa-solid control-icon border-icon fa-stop icon-stop"></i>
+                </div>
+                <div class="next-btn">
+                  <i class="fa-solid control-icon fa-forward-step"></i>
+                </div>
+                <div class="repeat-btn ">
+                  <i class="fa-solid control-icon fa-repeat icon-repeat"></i>
+                </div>
+              </div>
+              <div class="control-progress">
+                <input type="range" class="progress" id="progress" value="0" step="1" min="0" max="100">
+                <audio id="audio" src=""></audio>
+              </div>
+            </div>
+
+            <div class="control-option">
+              <i class="control-icon fa-solid fa-bars icon-option"></i>
+            </div>
+          </div>
+          
+        </div>
+      <script src="./main.js"></script>
+    <!-- </div> -->
+  </body>
+</html>
